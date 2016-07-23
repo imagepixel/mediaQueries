@@ -1,0 +1,268 @@
+/* ############### iOS ############### */
+
+
+/* ## iPad Media Queries 1-5 inklusieve iPad mini ## ___________________________________________________________________ */
+
+
+/* portrait und landscape */
+
+@media only screen
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+/*  ... dein CSS Code ... */
+
+}
+
+/* nur landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+/*  ... dein CSS Code ... */
+
+}
+
+/* nur portrait */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+/*  ... dein CSS Code ... */
+}
+
+
+/* ## iPhone 6 Media Queries ## ___________________________________________________________________ */ 
+
+/* portrait und landscape */ 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+/*  ... dein CSS Code ... */
+}
+
+
+/* nur landscape*/
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { 
+/*  ... dein CSS Code ... */
+}
+
+
+/* nur portrait */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
+/*  ... dein CSS Code ... */
+}
+
+
+/* ## iPhone 6 Plus Media Queries ## ___________________________________________________________________ */
+
+/* portrait und landscape */ 
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { 
+/*  ... dein CSS Code ... */
+}
+
+
+/* nur landscape */
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+/*  ... dein CSS Code ... */
+}
+
+
+/* nur portrait */
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) {
+/*  ... dein CSS Code ... */ 
+}
+
+
+/* ## iPhone 5/5S Media Queries ## ___________________________________________________________________ */
+
+/* portrait und landscape */ 
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+/*  ... dein CSS Code ... */ 
+}
+
+/* nur landscape */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+/*  ... dein CSS Code ... */ 
+}
+
+/* nur portrait */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+/*  ... dein CSS Code ... */ 
+}
+
+
+
+
+
+
+/* ############### Android ############### */
+
+/* ## Samsung Galaxy S3 ## ___________________________________________________________________*/
+
+/* portrait und landscape */ 
+
+@media only screen 
+and (device-width: 320px) 
+and (device-height: 640px) 
+and (-webkit-device-pixel-ratio: 2){
+/*  ... dein CSS Code ... */ 
+}
+
+
+/* nur landscape */
+
+@media only screen 
+and (device-width: 320px) 
+and (device-height: 640px) 
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape){
+/*  ... dein CSS Code ... */ 
+}
+
+
+/* nur portrait */
+
+@media only screen 
+and (device-width: 320px) 
+and (device-height: 640px) 
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: portrait){
+/*  ... dein CSS Code ... */ 
+}
+
+
+/* ## Samsung Galaxy S4 ## ___________________________________________________________________*/
+
+/* portrait und landscape */ 
+
+@media only screen 
+and (device-width: 320px) 
+and (device-height: 640px) 
+and (-webkit-device-pixel-ratio: 3){
+/*  ... dein CSS Code ... */ 
+}
+
+
+/* nur landscape */
+
+@media only screen 
+and (device-width: 320px) 
+and (device-height: 640px) 
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape){
+/*  ... dein CSS Code ... */ 
+}
+
+
+/* nur portrait */
+
+@media only screen 
+and (device-width: 320px) 
+and (device-height: 640px) 
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait){
+/*  ... dein CSS Code ... */ 
+}
+
+
+/* ## Samsung Galaxy S5 ## ___________________________________________________________________ */
+
+/* portrait und landscape */ 
+
+@media only screen 
+and (device-width: 360px) 
+and (device-height: 640px) 
+and (-webkit-device-pixel-ratio: 3){
+/*  ... dein CSS Code ... */ 
+}
+
+
+/* nur landscape */
+
+@media only screen 
+and (device-width: 360px) 
+and (device-height: 640px) 
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape){
+/*  ... dein CSS Code ... */ 
+}
+
+
+/* nur portrait */
+
+@media only screen 
+and (device-width: 360px) 
+and (device-height: 640px) 
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait){
+/*  ... dein CSS Code ... */ 
+}
+
+
+/* ## Samsung Galaxy S6/S7 ## ___________________________________________________________________ */
+
+/* portrait und landscape */ 
+
+@media only screen 
+  and (device-width: 360px) 
+  and (device-height: 640px)
+  and (-webkit-min-device-pixel-ratio : 4) 
+  and (-webkit-device-pixel-ratio : 4){
+  /*  ... dein CSS Code ... */ 
+ }
+
+
+/* nur landscape */
+
+@media only screen 
+and (device-width: 360px) 
+and (device-height: 640px) 
+and (-webkit-device-pixel-ratio: 4)
+and (-webkit-device-pixel-ratio : 4)
+and (orientation: landscape){
+/*  ... dein CSS Code ... */ 
+}
+
+
+/* nur portrait */
+
+@media only screen 
+and (device-width: 360px) 
+and (device-height: 640px) 
+and (-webkit-device-pixel-ratio: 4)
+and (-webkit-device-pixel-ratio : 4)
+and (orientation: portrait){
+/*  ... dein CSS Code ... */ 
+}
+
