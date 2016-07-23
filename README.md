@@ -1,2 +1,2 @@
-# mediaQueries
-Mobile CSS media queries
+# Mobile CSS media queries
+
